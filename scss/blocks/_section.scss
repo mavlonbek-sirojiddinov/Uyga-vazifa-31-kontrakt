@@ -1,7 +1,12 @@
 
 
 
-
+.text-hd {
+  text-align: center;
+  font-size: 50px;
+  transition: 0.4s;
+  transform: translateY(30px);
+}
 
 .outer {
   position: relative;
@@ -119,6 +124,7 @@
   height: 40px;
   border-radius: 20px;
   padding-left: 10px;
+  padding-right: 14px;
   border: 2px solid grey;
   transition: 0.4s;
 }
@@ -229,9 +235,28 @@ input:checked[type="checkbox"]::after {
   transform: scale(1);
 }
 
+.massege-box {
+  width: 700px;
+  background-color: transparent;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 0 65px 0;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  border-radius: 50%;
+  transition: 0.4s;
+  color: white;
+}
 
 .massege {
-  display: block;
-  width: 200px;
-  height: 100px;
+  text-align: center;
+}
+
+.massege-2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.massege-3 {
+  text-align: center;
 }
